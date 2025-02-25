@@ -6,3 +6,7 @@ deployment:
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R src $DEPLOYPATH
+    - /bin/cp webpack.config.js $DEPLOYPATH
+    - /bin/cp babel.config.json $DEPLOYPATH
+    - /bin/cp package-lock.json $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
